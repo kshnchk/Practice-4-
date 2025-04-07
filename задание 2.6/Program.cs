@@ -12,7 +12,7 @@ namespace задание_3._1
         {
             Console.Write("Введите длину ряда: ");
             int N = int.Parse(Console.ReadLine());
-            string res = new string(' ', 0);
+            string res = " ";
             for (int i = 0; i < N; i++)
             {
                 res += "20 "; 
